@@ -1,25 +1,23 @@
-Ionic App Base
+Ionic Push Notification
 =====================
 
-A starting project for Ionic that optionally supports using custom SCSS.
+A
 
-## Using this project
+## PAra usar este proyecto
 
-We recommend using the [Ionic CLI](https://github.com/driftyco/ionic-cli) to create new Ionic projects that are based on this project but use a ready-made starter template.
-
-For example, to start a new Ionic project with the default tabs interface, make sure the `ionic` utility is installed:
-
-```bash
-$ npm install -g ionic
-```
-
-Then run:
+te recomiendo usar  [Ionic CLI](https://github.com/driftyco/ionic-cli)  post en [Ionic Push Notification para android ](https://medium.com/@ezeezegg/push-notification-con-ionic-para-android-81d99e91df42#.yorf90x5q)
+Copia el proyecto
 
 ```bash
-$ ionic start myProject tabs
+$ git clone https://github.com/ezegg/ionic-push.git
 ```
 
-More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
+ejecuta los siguientes comandos:
 
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/submit-issue/) to the main Ionic repository.
+```bash
+$ ionic platform add android
+```
+
+```bash
+$ ionic build android
+```
